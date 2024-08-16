@@ -1,6 +1,6 @@
 name = "ocl_icd_jll"
 uuid = "43088459-b9e4-5d54-8487-0befc54bcdc8"
-version = "2024.5.8+0"
+version = "2.3.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"

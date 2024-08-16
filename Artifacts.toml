@@ -8,15 +8,6 @@ os = "macos"
     url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.aarch64-apple-darwin.tar.gz"
 [[ocl_icd]]
 arch = "aarch64"
-git-tree-sha1 = "4058f0af8d0e5eb76618b5fec5d977c47175a972"
-libc = "glibc"
-os = "linux"
-
-    [[ocl_icd.download]]
-    sha256 = "0c5004e2c6f4c33976d1e1f1e309a1ff1b9807bea1b3a287cfc9291be579e98f"
-    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.aarch64-linux-gnu.tar.gz"
-[[ocl_icd]]
-arch = "aarch64"
 git-tree-sha1 = "2151a08d28276531527f7094be0962ab189b1247"
 libc = "musl"
 os = "linux"
@@ -24,16 +15,6 @@ os = "linux"
     [[ocl_icd.download]]
     sha256 = "ef4791660ff9d86c0f963dce4a27215212f99b7b6e16ecf36e8cda8f9d4d2c4f"
     url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.aarch64-linux-musl.tar.gz"
-[[ocl_icd]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "8cfc55711ca8a5f7948b93436d8a0ea65acb2ac4"
-libc = "glibc"
-os = "linux"
-
-    [[ocl_icd.download]]
-    sha256 = "2e908fb1ebf5476abe0e1aa9260ba4ac0ac06b7e5d171e6eaf3b24ddc62bfb6a"
-    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.armv6l-linux-gnueabihf.tar.gz"
 [[ocl_icd]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -47,16 +28,6 @@ os = "linux"
 [[ocl_icd]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "9039c670df2cf2551662ebc82b252cc10c7bcb0c"
-libc = "glibc"
-os = "linux"
-
-    [[ocl_icd.download]]
-    sha256 = "849118d44fb6773ae7b0e87aee5f4f1298519355f0bf9f680328b8d7c4701e64"
-    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.armv7l-linux-gnueabihf.tar.gz"
-[[ocl_icd]]
-arch = "armv7l"
-call_abi = "eabihf"
 git-tree-sha1 = "7d95b98a7ad63e090efbf7ce10765c6107da2067"
 libc = "musl"
 os = "linux"
@@ -64,15 +35,6 @@ os = "linux"
     [[ocl_icd.download]]
     sha256 = "8611a237dd99f0bea66ef85e98cbbc15f5abd381ef676cd20c63941dc971d9fa"
     url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.armv7l-linux-musleabihf.tar.gz"
-[[ocl_icd]]
-arch = "i686"
-git-tree-sha1 = "036dad0a84651fecbca04a4e0d359ef3ee8b9fa1"
-libc = "glibc"
-os = "linux"
-
-    [[ocl_icd.download]]
-    sha256 = "6c8451936fa8af077fd12448c01c634674e52ecb87b6714ba00f08d08fb208e5"
-    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.i686-linux-gnu.tar.gz"
 [[ocl_icd]]
 arch = "i686"
 git-tree-sha1 = "16f657e2db45118de826d87322fbc289e112504a"
@@ -91,15 +53,6 @@ os = "windows"
     sha256 = "7f6569480935e0bc154d1f0c3b2f3c2067fbbd3ba8ff9b0802ccd9a1d9532b16"
     url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.i686-w64-mingw32.tar.gz"
 [[ocl_icd]]
-arch = "powerpc64le"
-git-tree-sha1 = "991e8139064e12fcdc30356c2d09791f65b9b740"
-libc = "glibc"
-os = "linux"
-
-    [[ocl_icd.download]]
-    sha256 = "53e375cc4356ec85f8ce4f298e91651595ad2266b5f0f6299a8808bf612646dd"
-    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.powerpc64le-linux-gnu.tar.gz"
-[[ocl_icd]]
 arch = "x86_64"
 git-tree-sha1 = "fa8d5490880d7b7812adf578a1ea0fca13809500"
 os = "macos"
@@ -107,15 +60,6 @@ os = "macos"
     [[ocl_icd.download]]
     sha256 = "91d0073ec8dfbd5a211775cee65ca8d40c114d26e2e8a23fa1e1759a2efed626"
     url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.x86_64-apple-darwin.tar.gz"
-[[ocl_icd]]
-arch = "x86_64"
-git-tree-sha1 = "f6523d3aba5080e4d08da25ab0b34f4fe3a95b3b"
-libc = "glibc"
-os = "linux"
-
-    [[ocl_icd.download]]
-    sha256 = "ae24b5f8184f82d59f2ee8a25c155adc0b177aa5b162781bd32a94e5764eb348"
-    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.x86_64-linux-gnu.tar.gz"
 [[ocl_icd]]
 arch = "x86_64"
 git-tree-sha1 = "f238709d263f20521ba5e9d1d98be124a6e82fb7"
@@ -141,3 +85,59 @@ os = "windows"
     [[ocl_icd.download]]
     sha256 = "7a6153ee3996ee64147dbfbfdf6e95a73d14dba09b2151673a9d5275265b3551"
     url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2024.5.8+0/ocl_icd.v2024.5.8.x86_64-w64-mingw32.tar.gz"
+[[ocl_icd]]
+arch = "aarch64"
+git-tree-sha1 = "9fe41f479b4de66e7a494fc4e19dbf4621147094"
+libc = "glibc"
+os = "linux"
+
+    [[ocl_icd.download]]
+    sha256 = "4c542aef563d858cfcd6f6cbfc0dc9b4e5aa15c12ac115bd2f2bd7f65570037b"
+    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2.3.2+0/ocl_icd.v2.3.2.aarch64-linux-gnu.tar.gz"
+[[ocl_icd]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "02d355852f6d6ffa70c58238bd97bf23f4a7de19"
+libc = "glibc"
+os = "linux"
+
+    [[ocl_icd.download]]
+    sha256 = "ccf59e9e4401e2126ec5b8536e6abe1ff9223dfb24d70e84df847b5b63cbfcb2"
+    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2.3.2+0/ocl_icd.v2.3.2.armv6l-linux-gnueabihf.tar.gz"
+[[ocl_icd]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "84cc63db4b8986ff5e341e22fa640526e3a4e0f4"
+libc = "glibc"
+os = "linux"
+
+    [[ocl_icd.download]]
+    sha256 = "fa3b92fe51613a40a9d1947aa0ba87dbbd1f81494f376d663d46e4b495b6c388"
+    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2.3.2+0/ocl_icd.v2.3.2.armv7l-linux-gnueabihf.tar.gz"
+[[ocl_icd]]
+arch = "i686"
+git-tree-sha1 = "7ab5325287511d3efe2d5b8d617775ace133312e"
+libc = "glibc"
+os = "linux"
+
+    [[ocl_icd.download]]
+    sha256 = "73d2feccf2773a006083d7ad91408a776e3534b948d7f5136e0ccff0cb1fe3a7"
+    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2.3.2+0/ocl_icd.v2.3.2.i686-linux-gnu.tar.gz"
+[[ocl_icd]]
+arch = "powerpc64le"
+git-tree-sha1 = "75a4fb1867008bea7f516a1e98a51e6dbd80d889"
+libc = "glibc"
+os = "linux"
+
+    [[ocl_icd.download]]
+    sha256 = "81a6b7731e282fc1bc4e3c179ca3211f50b2d97bc828983681fb5be0fa4f6c82"
+    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2.3.2+0/ocl_icd.v2.3.2.powerpc64le-linux-gnu.tar.gz"
+[[ocl_icd]]
+arch = "x86_64"
+git-tree-sha1 = "6631a0b8999df753d86360b94ccd18ffe44315dd"
+libc = "glibc"
+os = "linux"
+
+    [[ocl_icd.download]]
+    sha256 = "d129a345a778fdb2ec27d2d72873029d760a69631669ec3bb8e12beb362221f5"
+    url = "https://github.com/Mellich/ocl_icd_jll.jl/releases/download/ocl_icd-v2.3.2+0/ocl_icd.v2.3.2.x86_64-linux-gnu.tar.gz"
